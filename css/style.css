@@ -19,7 +19,7 @@ a {
 /* Header */
 
 header {
-    padding: 20px 0px 0px 20px;
+    padding-top: 20px;
 }
 
 header img {
@@ -77,6 +77,8 @@ li {
 }
 
 /* Layout */
+
+/* Immagini */
 .article-header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -123,9 +125,45 @@ li {
     background-image: url(../img/img-3.jpg);
 }
 
+/* Testo */
+.text-left, .text-mid, .text-right {
+    float: left;
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: center;
+}
+
+.text-right, .text-left {
+    width: 20%;
+}
+
+.text-mid {
+    width: calc(60% - 40px);
+    margin: 0px 20px;
+}
+
+.text-box h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(78, 78, 78);
+    margin-bottom: 12px;
+}
+
+.grey-text {
+    color: rgb(180, 180, 180)
+}
+
+
 /* Footer */
 footer {
-    height: 80px;
-    background-color: plum;
+    padding: 40px 0px 40px 0px;
     margin-top: 10px;
+}
+
+.sign {
+    text-align: center;
+}
+
+footer .red-text {
+    color: rgb(214, 69, 33);
 }
