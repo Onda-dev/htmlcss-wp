@@ -40,7 +40,6 @@ li {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    position: relative;
 }
 
 .overlay {
@@ -49,15 +48,24 @@ li {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    padding-left: 60px;
+    padding-top: 320px;
+}
+
+.title-container {
+    width: 600px;
 }
 
 .hero h1 {
-    position: absolute;
     color: white;
-    left: 50px;
-    top: 70%;
     font-weight: 400;
     font-size: 26px;
+}
+
+.hero h2 {
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
 }
 
 .layout {
