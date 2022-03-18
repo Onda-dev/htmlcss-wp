@@ -79,6 +79,7 @@ li {
 /* Layout */
 .article-header {
     padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
@@ -98,19 +99,28 @@ li {
     clear: both;
 }
 
-.column-left, .column-right {
-    width: 20%;
+.column-left, .column-mid, .column-right {
+    height: 220px;
+    float: left;
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: center;
 }
 
 .column-mid {
     width: calc(60% - 40px);
     margin: 0px 20px;
+    background-image: url(../img/banner-2.jpg);
 }
 
-.column-left, .column-mid, .column-right {
-    height: 500px;
-    background-color: lightblue;
-    float: left;
+.column-left {
+    width: 20%;
+    background-image: url(../img/img-1.jpg);
+}
+
+.column-right {
+    width: 20%;
+    background-image: url(../img/img-3.jpg);
 }
 
 /* Footer */
