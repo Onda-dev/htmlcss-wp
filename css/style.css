@@ -60,12 +60,11 @@ li {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    padding-left: 60px;
-    padding-top: 320px;
+    padding: 320px 60px 0px 60px;
 }
 
-.title-container {
-    width: 600px;
+.title-box {
+    max-width: 600px;
 }
 
 .hero h1 {
